@@ -1,7 +1,7 @@
 name = "SynapseElife"
 uuid = "7cc9ea39-daa9-4846-be95-d8a08c9e3c85"
-authors = ["Yuri Rodrigues <yuri.rodrigues@inria.fr> and Romain Veltz <romain.veltz@inria.fr>"]
 version = "0.0.7"
+authors = ["Yuri Rodrigues <yuri.rodrigues@inria.fr> and Romain Veltz <romain.veltz@inria.fr>"]
 
 [deps]
 Catalyst = "479239e8-5488-4da2-87a7-35f2df7eef83"
@@ -33,6 +33,7 @@ PlotsExt = ["Plots"]
 [compat]
 Catalyst = "^10.4.2,11,12,13,14,15"
 Distributions = "0.25"
+LSODA = "1"
 LabelledArrays = "1.14"
 PiecewiseDeterministicMarkovProcesses = "0.0.4, 0.0.5, ^0.0.7, ^0.0.8, ^0.0.9, ^0.0.10, ^0.0.11"
 SciMLBase = "2.9.0, 2.149.0"
